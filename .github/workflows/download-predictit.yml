@@ -21,3 +21,4 @@ jobs:
         with:
           name: data.xml
           path: data.xml
+          retention-days: 5
