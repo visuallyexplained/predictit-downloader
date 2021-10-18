@@ -14,9 +14,7 @@ jobs:
 
       - name: step 1 - Download xml file
         run: |
-          cd downloads
           wget https://www.predictit.org/api/marketdata/all -O data.xml
-          cd ..
 
       - name: Step 2 - Use the Upload Artifact GitHub Action
         uses: actions/upload-artifact@v2
